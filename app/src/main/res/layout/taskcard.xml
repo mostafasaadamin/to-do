@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#c1cfe1"
+    android:id="@+id/cardd"
+ app:cardElevation="3dp"
+    android:layout_margin="5dp"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/a"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/task_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text="Create Project"
+            />
+        <ImageView
+    android:id="@+id/status"
+    android:layout_width="36dp"
+    android:layout_centerVertical="true"
+    android:layout_height="36dp"
+    android:layout_alignParentEnd="true"
+    android:src="@drawable/status"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12/4199 12:89"
+            android:paddingLeft="10dp"
+            android:textSize="12sp"
+            android:layout_below="@+id/task_title"
+            android:id="@+id/dateandtime"
+            />
+
+    </RelativeLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/a"
+    android:padding="10dp"
+    >
+
+</LinearLayout>
+
+
+
+
+</RelativeLayout>
+</android.support.v7.widget.CardView>

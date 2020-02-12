@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_rate"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_more_apps"
+        android:orderInCategory="100"
+        android:title="@string/action_more_apps"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="90"
+        android:title="@string/action_share"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_setting"
+        android:orderInCategory="90"
+        android:title="@string/action_setting_alarm"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/refresh"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_alarm"
+        android:orderInCategory="80"
+        android:title="@string/action_stop_alarm"
+        android:icon="@drawable/ic_alert"
+        app:showAsAction="always" />
+</menu>

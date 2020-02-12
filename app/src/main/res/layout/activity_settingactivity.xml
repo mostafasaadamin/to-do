@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80bbd9bd"
+    tools:context="com.example.unknown.todo.Settingactivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:background="@color/color2"
+    android:id="@+id/first"
+    android:layout_marginTop="100dp"
+    android:orientation="horizontal"
+    >
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/pic_song"
+    android:gravity="center"
+    android:text="Pick Your song"
+    android:padding="20dp"
+    android:onClick="PickSong"
+    android:textSize="20sp"
+    />
+
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color2"
+        android:layout_below="@+id/first"
+        android:orientation="horizontal"
+        android:id="@+id/secound"
+        >
+        <EditText
+            android:hint="Chose your time in minutes"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/Sps_time"
+            android:gravity="center"
+            android:inputType="number"
+            android:background="@drawable/editnumberback"
+            android:padding="20dp"
+            android:textSize="20sp"
+            />
+
+
+    </RelativeLayout>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/darkGreen"
+    android:layout_alignParentBottom="true"
+    android:text="Save"
+    android:textSize="20sp"
+    android:textColor="#fff"
+    android:layout_margin="10dp"
+    android:onClick="SaveStatus"
+    />
+
+</RelativeLayout>

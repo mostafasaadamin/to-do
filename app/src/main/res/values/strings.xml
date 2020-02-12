@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="title_activity_tasks">Tasks</string>
+    <string name="title_activity_tasks_list">TasksList</string>
+    <string name="action_settings">Rate Us</string>
+    <string name="tasktitle">tasktitle</string>
+    <string name="task_description">task description</string>
+    <string name="task_date">task date</string>
+    <string name="tasktime">tasktime</string>
+    <string name="add_new_task">ADD New Task</string>
+    <string name="action_more_apps">More Apps</string>
+    <string name="action_delete">delete All notes</string>
+    <string name="no_notes_press_button_to_add_new_one">No notes press (+) button to add new one</string>
+    <string name="action_setting">Delete</string>
+    <string name="action_delete_note">delete</string>
+    <string name="action_share">Share</string>
+    <string name="successfully">Task Added successffully</string>
+    <string name="fill">Please Fill All info</string>
+    <string name="taskdeleted">Task deleted successffully</string>
+    <string name="starttask">Your task will start after one hour get ready</string>
+    <string name="action_stop_alarm">Stop</string>
+    <string name="action_setting_alarm">Setting</string>
+</resources>

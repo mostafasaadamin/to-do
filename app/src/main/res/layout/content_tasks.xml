@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.unknown.todo.Tasks"
+    tools:showIn="@layout/activity_tasks">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/addtask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/empty"
+        android:visibility="invisible"
+        android:id="@+id/empty"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/empty"
+        android:id="@+id/emptytext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:lines="2"
+        android:minLines="2"
+        android:visibility="invisible"
+        android:singleLine="false"
+        android:text="@string/no_notes_press_button_to_add_new_one"
+        />
+</RelativeLayout>

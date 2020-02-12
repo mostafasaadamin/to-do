@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">انجاز المهام </string>
+    <string name="title_activity_tasks">المهمات</string>
+    <string name="title_activity_tasks_list">قائمه المهام</string>
+    <string name="action_settings">قيمنا</string>
+    <string name="tasktitle">عنوان المهمه</string>
+    <string name="task_description">تفاصيل المهمه</string>
+    <string name="task_date">تاريخ المهمه</string>
+    <string name="tasktime">وقت المهمه</string>
+    <string name="add_new_task">اضافه مهمه جديده</string>
+    <string name="action_more_apps">المزيد من التطبيقات</string>
+    <string name="action_delete">حذف جميع المهمات</string>
+    <string name="action_delete_note">حذف</string>
+    <string name="action_share">مشاركه</string>
+    <string name="successfully">تم اضافه المهمه بنجاح</string>
+    <string name="fill">من فضلك قم بادخال جميع بيانات المهمه</string>
+    <string name="taskdeleted">تم حذف المهمه بنجاح</string>
+    <string name="action_setting">حذف</string>
+    <string name="starttask">المهمه سوف تبدا بعد ساعه</string>
+    <string name="no_notes_press_button_to_add_new_one">لا توجد مهمات قم بالضغط علي(+)لاضافه مهمه جديده </string>
+    <string name="action_stop_alarm">ايقاف</string>
+</resources>

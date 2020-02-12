@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:app="http://schemas.android.com/apk/res-auto"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      >
+       <ProgressBar
+            android:id="@+id/barfortimer"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/progressdialog"
+            android:indeterminate="false"
+            android:max="100"
+            android:layout_centerInParent="true"
+            android:progress="100"
+            android:progressDrawable="@drawable/progressdialogshape"
+             />
+        <TextView
+            android:id="@+id/timetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5d:34H:18M:50S"
+            android:textSize="16sp"
+            android:layout_centerInParent="true"
+            android:textColor="#FFF"
+            android:layout_marginLeft="10dp"
+            />
+</RelativeLayout>
